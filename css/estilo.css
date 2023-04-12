@@ -1,0 +1,147 @@
+body{
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;				/*margen centrado primero vertical, segundo horizontal */
+	/*border: 2px solid #000; */
+}
+
+header{
+
+	height: 16vh;	/* vh = viewport height porcentaje del alto de la pantalla 100px aprox*/
+	width: 100%;
+	max-width: 900px;
+	margin: 20px 0px;
+	/*border: 2px solid #000;*/
+}
+
+header #logo{
+	height: 16vh;		/* vh = viewport height porcentaje del alto de la pantalla*/
+	float: left;
+	/*border: 1px solid #000;*/
+}
+
+header #logo img{
+	height: 16vh;
+}
+
+header .menu{
+	height: 16vh;	/*vh = viewport height porcentaje del alto de la pantalla*/
+	float: right;	/* alinea el menu a la derecha "flotar a la derecha" */
+	/*border: 2px solid #000;*/
+}
+
+header .menu ul li{
+	list-style: none; /* quitar viñeta de etiqueta li */
+	float: left; /*poner lista horizontal "flotar a la izquierda"*/
+	/*border: 2px solid #000;*/
+}
+
+header .menu ul li a{
+	background: #6e050e;
+	text-decoration: none; /*quitar subrayado default*/
+	padding: 10px 15px; /*relleno*/
+	color: #fff;
+	font-size: 1rem; /*unidad relativa equivalente a 16px*/
+	/*border: 2px solid #000;*/
+}
+
+header .menu ul li a:hover{
+	background: #2d2f38;
+	color: #fff;
+}
+
+#perfil{
+	height: 40vh; 	/*vh = viewport height porcentaje del alto de la pantalla 250px aprox*/
+	margin: 20px 0px;
+	border: 2px solid #000;
+}
+
+#perfil img{
+
+	height: 40vh; /*vh = viewport height porcentaje del alto de la pantalla*/
+	float: left;
+	border: 2px solid #000;
+
+}
+
+#perfil h1{
+
+	font-size: 3.1rem; /*equivalente a 50px*/
+	color: #2d2f38;
+	text-align: center;
+	/*border: 2px solid #000;*/
+}
+
+#perfil p{
+	color: #2d2f38;
+	text-align: center;
+	/*border: 2px solid #000;*/
+}
+
+#recuadros{
+	width: 100%;
+	max-width: 900px;
+	overflow: hidden;	 /*El contenido es recortado y no se muestran barras de posicion.*/
+	border:  0px solid;
+	margin: 20px 0px;
+	text-align: center;
+	/*border: 2px solid #000;*/
+}
+
+#recuadros .recuadro{
+	width: 280px;
+	overflow: hidden;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #2d2f38;
+	margin-left: 8px;
+	margin-right: 8px;
+	border: 1px solid #2d2f38;
+	/*border: 2px solid #000;*/
+}
+
+#recuadros .recuadro.parrafo{
+	color: #2d2f38;
+	text-align: justify;
+	/*border: 2px solid #000;*/
+}
+
+.boton{
+	text-decoration: none; /*quitar subrayado default*/
+	border: 1px solid #2d2f38;
+	padding: 10px 20px; /*margenes verticales, margenes horizontales*/
+	/*border: 2px solid #000;*/
+}
+
+.boton:hover{ /*cuando se pasa el cursor sobre el boton*/
+	background: #2d2f38; /*color fondo*/
+	color: #fff; /*color letras*/
+}
+
+footer{
+	height: 8vh;
+	width: 100%;
+	max-width: 900px;
+	text-align: center;
+	float: left;
+	/*border: 2px solid #000;*/
+}
+
+/*--------------Formulario-------*/
+
+#formulario{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	padding: 5px;
+	float: left; /*alineamos el formulario a la IZQUIERDA*/
+}
+
+#formulario2{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	padding: 5px;
+	float: right; /*alineamos el formulario2 a la DERECHA*/
+}
